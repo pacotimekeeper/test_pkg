@@ -1,0 +1,21 @@
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test_pkg"
+version = "0.1.0"
+description = "A short description of my package"
+authors = [
+    { name="Paco Ho", email="kaiipho@gmail.com" }
+]
+license = { file="LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",  # Add your dependencies here
+]
+
+[project.urls]
+Homepage = "https://github.com/pacotimekeeper/test_pkg"
